@@ -1,0 +1,5 @@
+{
+  "artifacts_dir": "artifacts",
+  "model_file": "model.pkl",
+  "per_model_model_template": "{model_name}_model.pkl"
+}

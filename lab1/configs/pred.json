@@ -1,0 +1,4 @@
+{
+  "predictions_file": "predictions.csv",
+  "per_model_predictions_template": "{model_name}_predictions.csv"
+}

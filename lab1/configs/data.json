@@ -1,0 +1,32 @@
+{
+  "raw_dir": "data",
+  "train_file": "train.csv",
+  "test_file": "test.csv",
+  "target_column": "Survived",
+  "id_column": "PassengerId",
+  "feature_columns": [
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Embarked"
+  ],
+  "numeric_features": [
+    "Pclass",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare"
+  ],
+  "categorical_features": [
+    "Sex",
+    "Embarked"
+  ],
+  "split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratify": true
+  }
+}

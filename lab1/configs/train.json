@@ -1,0 +1,25 @@
+{
+  "default_model": "logistic_regression",
+  "models": {
+    "logistic_regression": {
+      "class": "LogisticRegression",
+      "params": {
+        "max_iter": 1000
+      }
+    },
+    "random_forest": {
+      "class": "RandomForestClassifier",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "random_state": 42
+      }
+    }
+  },
+  "preprocessing": {
+    "numeric_imputer_strategy": "median",
+    "scale_numeric": true,
+    "categorical_imputer_strategy": "most_frequent",
+    "one_hot_handle_unknown": "ignore"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "metrics": [
+    "accuracy",
+    "auc"
+  ],
+  "metrics_file": "metrics.json",
+  "per_model_metrics_template": "{model_name}_metrics.json"
+}
